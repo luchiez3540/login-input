@@ -1,0 +1,23 @@
+function mostrarContrasena1(){
+
+      var tipo = document.getElementById("password1");
+
+      var icon =
+
+document.getElementById("eye");
+
+      if(tipo.type == "password"){
+
+          tipo.type = "text";
+
+          icon.classList.add('far-fa-eye');
+
+      }else{
+
+          tipo.type = "password";
+
+            icon.classList.remove('far-fa-eye');
+
+      }
+
+  }
