@@ -1,0 +1,6 @@
+<div class="campo">
+
+                  <input type="password" name="password" id="password1" placeholder="Escribe tu contraseña">            
+
+                  <i class="far fa-eye-slash" onclick="mostrarContrasena1()" id="eye"></i>
+</div> 
